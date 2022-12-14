@@ -6,6 +6,10 @@
 * 제가 느끼기에는 KaTEX가 조금 더 많은 문법들을 지원하는 것 같습니다. 
 * 그래서 KaTEX 엔진에서는 렌더링되던 LaTEX 스크립트들이 MathJax 환경에서는 종종 에러를 보이곤 합니다.
 * 하지만 MathJax 환경에서 렌더링 되던 스크립트들이 KaTEX에서 에러를 발생시키는 경우는 아직까지 경험해보지 못했습니다.
+* 그래서 범용성을 위해 가능하면 MathJax 방식으로 LaTEX를 작성하는 것을 선호하는 편입니다.
+
+
+## 예시들
 
 $$
 f(x) = x^2 \tag{Eq 1.}
@@ -51,4 +55,9 @@ $$
 
 $$
 \therefore
+$$
+
+$$
+\tag{Linear Regression}
+y = \underbrace{e}_\text{noise term} + \underbrace{\beta_0 + \beta_1 x}_\text{regression term}
 $$
